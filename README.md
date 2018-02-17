@@ -20,8 +20,7 @@ All the routes on url path are included in the routes.py
 The views are maintained as seperate html files included in templates folder and rendered as needed.
 
 ### Python setup using wsgi for apache to handle the requests
-First check if mod_wsgi is installed.
-$ httpd -M | grep wsgi
+First check if mod_wsgi is installed.$ httpd -M | grep wsgi
 
 if we could not find anything, we need to install mod_wsgi. we can search for wsgi using:
 
